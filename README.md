@@ -6,5 +6,5 @@ This project is developed at Nizhny Novgorod State University (CMC faculty, ITLa
 
 Project maintainers:
 
-- "Valentina Kustikova"[https://github.com/valentina-kustikova]
-- "Pavel Druzhkov"[https://github.com/druzhkov-paul]
+- [Valentina Kustikova](https://github.com/valentina-kustikova)
+- [Pavel Druzhkov](https://github.com/druzhkov-paul)

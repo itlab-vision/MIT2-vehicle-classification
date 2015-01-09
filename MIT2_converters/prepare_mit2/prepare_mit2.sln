@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "check_prepare_imgs", "check_prepare_imgs\check_prepare_imgs.vcxproj", "{0E67FC7D-659C-4AC3-8E26-F4058CFB2995}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E67FC7D-659C-4AC3-8E26-F4058CFB2995}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0E67FC7D-659C-4AC3-8E26-F4058CFB2995}.Debug|Win32.Build.0 = Debug|Win32
+		{0E67FC7D-659C-4AC3-8E26-F4058CFB2995}.Release|Win32.ActiveCfg = Release|Win32
+		{0E67FC7D-659C-4AC3-8E26-F4058CFB2995}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

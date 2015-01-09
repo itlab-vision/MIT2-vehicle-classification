@@ -1,0 +1,27 @@
+name: "LINEAR"
+input: "data"
+input_dim: 64
+input_dim: 3
+input_dim: 34
+input_dim: 74 
+layers {
+  name: "ip"
+  type: INNER_PRODUCT
+  bottom: "data"
+  top: "ip"
+  inner_product_param {
+    num_output: 2
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  name: "prob"
+  type: SOFTMAX
+  bottom: "ip"
+  top: "prob"
+}

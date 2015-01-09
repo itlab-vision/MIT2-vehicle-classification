@@ -1,0 +1,11 @@
+I0109 13:08:54.112520  5704 solver.cpp:106] Iteration 10000, Testing net
+I0109 13:08:55.066047  5704 solver.cpp:142] Test score #0: 0.36
+I0109 13:08:55.067054  5704 solver.cpp:142] Test score #1: 29.4731
+I0109 13:08:55.067054  5704 solver.cpp:159] Snapshotting to cnn_iter_10000
+I0109 13:08:55.069478  5704 solver.cpp:166] Snapshotting solver state to cnn_ite
+r_10000.solverstate
+I0109 13:08:55.071481  5704 solver.cpp:159] Snapshotting to cnn_iter_10000
+I0109 13:08:55.071481  5704 solver.cpp:166] Snapshotting solver state to cnn_ite
+r_10000.solverstate
+I0109 13:08:55.072886  5704 solver.cpp:100] Optimization Done.
+I0109 13:08:55.073889  5704 train_net.cpp:34] Optimization Done.

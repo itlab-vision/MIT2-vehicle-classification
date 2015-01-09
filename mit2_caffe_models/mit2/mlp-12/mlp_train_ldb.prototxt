@@ -1,0 +1,53 @@
+name: "MLP"
+layers {
+  name: "mit2"
+  type: DATA
+  top: "data"
+  top: "label"
+  data_param {
+    source: "mit2-train-leveldb"
+    batch_size: 64
+  }
+} 
+layers {
+  name: "ip1"
+  type: INNER_PRODUCT
+  bottom: "data"
+  top: "ip1"
+  inner_product_param {
+    num_output: 50
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  name: "relu"
+  type: RELU
+  bottom: "ip1"
+  top: "ip1"
+}
+layers {
+  name: "ip2"
+  type: INNER_PRODUCT
+  bottom: "ip1"
+  top: "ip2"
+  inner_product_param {
+    num_output: 4
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  name: "loss"
+  type: SOFTMAX_LOSS
+  bottom: "ip2"
+  bottom: "label"
+}

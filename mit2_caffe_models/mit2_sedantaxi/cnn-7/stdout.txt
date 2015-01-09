@@ -1,0 +1,12 @@
+I0109 16:53:53.850885  8644 solver.cpp:87] Iteration 10000, loss = 1.30385e-008
+I0109 16:53:53.851889  8644 solver.cpp:106] Iteration 10000, Testing net
+I0109 16:53:59.469357  8644 solver.cpp:142] Test score #0: 0.277778
+I0109 16:53:59.469873  8644 solver.cpp:142] Test score #1: 33.1372
+I0109 16:53:59.471619  8644 solver.cpp:159] Snapshotting to cnn_iter_10000
+I0109 16:53:59.474623  8644 solver.cpp:166] Snapshotting solver state to cnn_ite
+r_10000.solverstate
+I0109 16:53:59.476625  8644 solver.cpp:159] Snapshotting to cnn_iter_10000
+I0109 16:53:59.478225  8644 solver.cpp:166] Snapshotting solver state to cnn_ite
+r_10000.solverstate
+I0109 16:53:59.480232  8644 solver.cpp:100] Optimization Done.
+I0109 16:53:59.481232  8644 train_net.cpp:34] Optimization Done.

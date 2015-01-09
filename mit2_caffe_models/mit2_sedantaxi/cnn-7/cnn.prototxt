@@ -1,0 +1,31 @@
+name: "CNN"
+input: "data"
+input_dim: 64
+input_dim: 3
+input_dim: 34
+input_dim: 74
+layers {
+  name: "conv"
+  type: CONVOLUTION
+  bottom: "data"
+  top: "conv"
+  blobs_lr: 1
+  blobs_lr: 2
+  convolution_param {
+    num_output: 2
+    kernel_size: 25
+    stride: 1
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  name: "prob"
+  type: SOFTMAX
+  bottom: "conv"
+  top: "prob"
+}

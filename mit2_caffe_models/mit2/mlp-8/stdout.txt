@@ -1,0 +1,11 @@
+I0108 18:07:28.040340  9308 solver.cpp:106] Iteration 10000, Testing net
+I0108 18:07:28.317456  9308 solver.cpp:142] Test score #0: 0.277407
+I0108 18:07:28.317456  9308 solver.cpp:142] Test score #1: 1.38796
+I0108 18:07:28.318749  9308 solver.cpp:159] Snapshotting to mlp_iter_10000
+I0108 18:07:28.321753  9308 solver.cpp:166] Snapshotting solver state to mlp_ite
+r_10000.solverstate
+I0108 18:07:28.324756  9308 solver.cpp:159] Snapshotting to mlp_iter_10000
+I0108 18:07:28.327759  9308 solver.cpp:166] Snapshotting solver state to mlp_ite
+r_10000.solverstate
+I0108 18:07:28.329761  9308 solver.cpp:100] Optimization Done.
+I0108 18:07:28.330760  9308 train_net.cpp:34] Optimization Done.

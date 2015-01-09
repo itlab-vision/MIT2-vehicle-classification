@@ -1,0 +1,32 @@
+name: "LINEAR"
+layers {
+  name: "mit2"
+  type: DATA
+  top: "data"
+  top: "label"
+  data_param {
+    source: "mit2-train-leveldb"
+    batch_size: 64
+  }
+} 
+layers {
+  name: "ip"
+  type: INNER_PRODUCT
+  bottom: "data"
+  top: "ip"
+  inner_product_param {
+    num_output: 2
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  name: "loss"
+  type: SOFTMAX_LOSS
+  bottom: "ip"
+  bottom: "label"
+}

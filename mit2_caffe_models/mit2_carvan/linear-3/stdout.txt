@@ -1,0 +1,11 @@
+I0109 10:52:53.328116 11676 solver.cpp:106] Iteration 20000, Testing net
+I0109 10:52:53.534561 11676 solver.cpp:142] Test score #0: 0.975
+I0109 10:52:53.535562 11676 solver.cpp:142] Test score #1: 1.15129
+I0109 10:52:53.536576 11676 solver.cpp:159] Snapshotting to linear_iter_20000
+I0109 10:52:53.538564 11676 solver.cpp:166] Snapshotting solver state to linear_
+iter_20000.solverstate
+I0109 10:52:53.539566 11676 solver.cpp:159] Snapshotting to linear_iter_20000
+I0109 10:52:53.540343 11676 solver.cpp:166] Snapshotting solver state to linear_
+iter_20000.solverstate
+I0109 10:52:53.542346 11676 solver.cpp:100] Optimization Done.
+I0109 10:52:53.542346 11676 train_net.cpp:34] Optimization Done.

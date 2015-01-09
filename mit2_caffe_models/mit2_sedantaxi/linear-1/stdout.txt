@@ -1,0 +1,12 @@
+I0109 12:24:47.190453  9324 solver.cpp:87] Iteration 10000, loss = 1.36463
+I0109 12:24:47.191468  9324 solver.cpp:106] Iteration 10000, Testing net
+I0109 12:24:47.373908  9324 solver.cpp:142] Test score #0: 0
+I0109 12:24:47.374982  9324 solver.cpp:142] Test score #1: 25.7122
+I0109 12:24:47.375987  9324 solver.cpp:159] Snapshotting to linear_iter_10000
+I0109 12:24:47.377986  9324 solver.cpp:166] Snapshotting solver state to linear_
+iter_10000.solverstate
+I0109 12:24:47.379518  9324 solver.cpp:159] Snapshotting to linear_iter_10000
+I0109 12:24:47.380519  9324 solver.cpp:166] Snapshotting solver state to linear_
+iter_10000.solverstate
+I0109 12:24:47.381520  9324 solver.cpp:100] Optimization Done.
+I0109 12:24:47.381520  9324 train_net.cpp:34] Optimization Done.

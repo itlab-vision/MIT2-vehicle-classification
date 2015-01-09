@@ -1,0 +1,60 @@
+name: "CNN-test"
+layers {
+  name: "mit2"
+  type: DATA
+  top: "data"
+  top: "label"
+  data_param {
+    source: "mit2-test-leveldb"
+    batch_size: 100
+  }
+}
+layers {
+  name: "conv"
+  type: CONVOLUTION
+  bottom: "data"
+  top: "conv"
+  blobs_lr: 1
+  blobs_lr: 2
+  convolution_param {
+    num_output: 10
+    kernel_size: 34
+    stride: 1
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  name: "ip"
+  type: INNER_PRODUCT
+  bottom: "conv"
+  top: "ip"
+  blobs_lr: 1
+  blobs_lr: 2
+  inner_product_param {
+    num_output: 2
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  name: "prob"
+  type: SOFTMAX
+  bottom: "ip"
+  top: "prob"
+}
+layers {
+  name: "accuracy"
+  type: ACCURACY
+  bottom: "prob"
+  bottom: "label"
+  top: "accuracy"
+} 

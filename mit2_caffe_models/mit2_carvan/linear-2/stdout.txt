@@ -1,0 +1,11 @@
+I0109 10:47:39.344336  7908 solver.cpp:106] Iteration 15000, Testing net
+I0109 10:47:39.550094  7908 solver.cpp:142] Test score #0: 0.9775
+I0109 10:47:39.551095  7908 solver.cpp:142] Test score #1: 1.03616
+I0109 10:47:39.552098  7908 solver.cpp:159] Snapshotting to linear_iter_15000
+I0109 10:47:39.917157  7908 solver.cpp:166] Snapshotting solver state to linear_
+iter_15000.solverstate
+I0109 10:47:39.919160  7908 solver.cpp:159] Snapshotting to linear_iter_15000
+I0109 10:47:39.920161  7908 solver.cpp:166] Snapshotting solver state to linear_
+iter_15000.solverstate
+I0109 10:47:39.921161  7908 solver.cpp:100] Optimization Done.
+I0109 10:47:39.922163  7908 train_net.cpp:34] Optimization Done.

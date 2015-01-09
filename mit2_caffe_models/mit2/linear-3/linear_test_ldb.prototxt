@@ -1,0 +1,39 @@
+name: "LINEAR-test"
+layers {
+  name: "mit2"
+  type: DATA
+  top: "data"
+  top: "label"
+  data_param {
+    source: "mit2-test-leveldb"
+    batch_size: 100
+  }
+} 
+layers {
+  name: "ip"
+  type: INNER_PRODUCT
+  bottom: "data"
+  top: "ip"
+  inner_product_param {
+    num_output: 4
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layers {
+  name: "prob"
+  type: SOFTMAX
+  bottom: "ip"
+  top: "prob"
+}
+layers {
+  name: "accuracy"
+  type: ACCURACY
+  bottom: "prob"
+  bottom: "label"
+  top: "accuracy"
+}

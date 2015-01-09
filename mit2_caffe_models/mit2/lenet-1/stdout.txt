@@ -1,0 +1,12 @@
+I0109 10:00:36.929270  6352 solver.cpp:87] Iteration 10000, loss = 87.3365
+I0109 10:00:36.930493  6352 solver.cpp:106] Iteration 10000, Testing net
+I0109 10:00:41.603914  6352 solver.cpp:142] Test score #0: 0.271111
+I0109 10:00:41.603914  6352 solver.cpp:142] Test score #1: 46.0518
+I0109 10:00:41.620489  6352 solver.cpp:159] Snapshotting to lenet_iter_10000
+I0109 10:00:41.658526  6352 solver.cpp:166] Snapshotting solver state to lenet_i
+ter_10000.solverstate
+I0109 10:00:41.696562  6352 solver.cpp:159] Snapshotting to lenet_iter_10000
+I0109 10:00:41.733036  6352 solver.cpp:166] Snapshotting solver state to lenet_i
+ter_10000.solverstate
+I0109 10:00:41.756057  6352 solver.cpp:100] Optimization Done.
+I0109 10:00:41.757057  6352 train_net.cpp:34] Optimization Done.
